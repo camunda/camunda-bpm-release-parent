@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.camunda</groupId>
     <artifactId>camunda-release-parent</artifactId>
-    <version>3.7.1</version>
+    <version>3.9.1</version>
     <!-- do not remove empty tag - http://jira.codehaus.org/browse/MNG-4687 -->
     <relativePath />
   </parent>
@@ -28,6 +28,7 @@
     <version.java>1.8</version.java>
 
     <plugin.version.license>3.0</plugin.version.license>
+    <plugin.version.maven-bundle>2.5.3</plugin.version.maven-bundle>
 
     <license.inlineHeader>
 Copyright Camunda Services GmbH and/or licensed to Camunda Services GmbH
