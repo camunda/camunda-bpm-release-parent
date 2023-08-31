@@ -30,6 +30,8 @@
     <plugin.version.license>3.0</plugin.version.license>
     <plugin.version.nexus-staging>1.6.13</plugin.version.nexus-staging>
     <plugin.version.compiler>3.6.2</plugin.version.compiler>
+    <plugin.version.javadoc>3.0.1</plugin.version.javadoc>
+    <plugin.version.maven-bundle>4.1.0</plugin.version.maven-bundle>
 
     <license.inlineHeader>
 Copyright Camunda Services GmbH and/or licensed to Camunda Services GmbH
