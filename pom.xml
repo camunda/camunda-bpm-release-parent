@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.camunda</groupId>
     <artifactId>camunda-release-parent</artifactId>
-    <version>3.7.2</version>
+    <version>3.7.3</version>
     <!-- do not remove empty tag - http://jira.codehaus.org/browse/MNG-4687 -->
     <relativePath />
   </parent>
@@ -103,6 +103,13 @@ limitations under the License.</license.inlineHeader>
               </goals>
             </execution>
           </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.sonatype.central</groupId>
+          <artifactId>central-publishing-maven-plugin</artifactId>
+          <configuration>
+            <waitMaxTime>3600</waitMaxTime>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
