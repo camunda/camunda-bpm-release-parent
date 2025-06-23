@@ -2,5 +2,6 @@
 buildMavenAndDeployToMavenCentral([
   jdk:8,
   mvn:3.3,
+  mvnReleaseProfiles:'sonatype-oss-release',
   publishZipArtifactToCamundaOrg:true
 ])
